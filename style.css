@@ -1,3 +1,17 @@
-highlight {
-    background-color: yellow;
+.maindiv{
+
+ display: flex;
+
+ align-items: center;
+
+ justify-content: center;
+
+ flex-direction: column;
+
+}
+
+.highlight{
+
+ background-color: yellow;
+
 }
