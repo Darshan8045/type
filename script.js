@@ -1,7 +1,13 @@
-document.addEventListener("DOMContentLoaded",function() {
-    const paragraph=document.getElementById("textPara");
-    const button=document.getElementById("highlightBtn");
-    button.addEventListener("click",function() {
-        paragraph.classList.toggle("highlight");
-    });
-});
+document.addEventListener("DOMContentLoaded",(event)=>{
+
+ document.getElementById("highlightBtn").addEventListener("click",()=>{
+
+ const btnclass=document.getElementById("textPara");
+
+ btnclass.classList.toggle("highlight");
+
+ 
+
+ })
+
+})
